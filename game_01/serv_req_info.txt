@@ -1,0 +1,41 @@
+<internal_error>
+<sub_system>ERR</sub_system>
+<callstack>
+	0x7f7978ce81e1: ccl_err + 0x81e1 (_ZN15ERR_STACKWALKER15get_stack_traceEPPKviiPv + 0xb1)
+	0x7f7978ceb22a: ccl_err + 0xb22a (_Z14err_terminatorv + 0x4b)
+	0x7f79a67e7506: jtag_client + 0x33506 (_ZN10__cxxabiv111__terminateEPFvvE + 0x6)
+	0x7f79a67e7533: jtag_client + 0x33533
+	0x7f79a67e763e: jtag_client + 0x3363e
+	0x7f79a67e8c87: jtag_client + 0x34c87 (_ZSt19__throw_logic_errorPKc + 0x67)
+	0x7f79a67ec0c1: jtag_client + 0x380c1 (_ZNSs12_S_constructIPKcEEPcT_S3_RKSaIcESt20forward_iterator_tag + 0xa1)
+	0x7f79a67ec458: jtag_client + 0x38458 (_ZNSsC2EPKcRKSaIcE + 0x38)
+	0x7f79aff1a99c: synth_sgn + 0xb199c (_ZNK15SGN_PRIM_MAPPER28error_missing_primitive_portEPSt3mapIPKcP19MSG_LOCATION_SCHEMASt4lessIS2_ESaISt4pairIKS2_S4_EEES2_S2_ + 0x17c)
+	0x7f79aff1c2c1: synth_sgn + 0xb32c1 (_ZNK15SGN_PRIM_MAPPER11process_tffEmP19CDB_SGATE_COMPONENTPKc17DB_PRIMITIVE_TYPE + 0x551)
+	0x7f79aff6e6a9: synth_sgn + 0x1056a9 (_ZNK15SGN_PRIM_MAPPER5startEmN15HDB_DESIGN_UNIT4TYPEE + 0x899)
+	0x7f79aff6eac2: synth_sgn + 0x105ac2 (_ZNK21SGN_NETLIST_PROCESSOR18initial_processingEmN15HDB_DESIGN_UNIT4TYPEE + 0x82)
+	0x7f79affeaab2: synth_sgn + 0x181ab2 (_ZNK10SGN_FN_LIB14start_vrf_flowEv + 0x72)
+	0x7f79affeb0a4: synth_sgn + 0x1820a4 (_ZN10SGN_FN_LIB5startEP16SGN_WRAPPER_INFO + 0x574)
+	0x7f79affef980: synth_sgn + 0x186980 (_ZNK13SGN_EXTRACTOR24single_module_extractionEP17HDB_INSTANCE_NAMEP10HDB_ENTITYP16SGN_WRAPPER_INFO + 0xf0)
+	0x7f79afff7768: synth_sgn + 0x18e768 (_ZN13SGN_EXTRACTOR20recursive_extractionEP17HDB_INSTANCE_NAMEP16SGN_WRAPPER_INFOPKc + 0x1f8)
+	0x7f79b0003393: synth_sgn + 0x19a393 (_ZN13SGN_EXTRACTOR7extractEv + 0x3a3)
+	0x7f79b000e480: synth_sgn + 0x1a5480 (_Z12sgn_qic_fullP10CMP_FACADERSt6vectorISsSaISsEERS1_IdSaIdEE + 0x440)
+	   0x41c4fc: quartus_map + 0x1c4fc (_Z16qsyn_execute_sgnP10CMP_FACADERSt6vectorISsSaISsEERKSsP14THR_NAMED_PIPES8_ + 0x17c)
+	   0x4383b1: quartus_map + 0x383b1 (_ZN14QSYN_FRAMEWORK12execute_coreEP14THR_NAMED_PIPES1_ + 0x231)
+	   0x43c384: quartus_map + 0x3c384 (_ZN14QSYN_FRAMEWORK7executeEv + 0xc74)
+	0x7f799d4ac952: comp_qexe + 0x1c952 (_Z18qexe_standard_mainP14QEXE_FRAMEWORKPPK22QEXE_OPTION_DEFINITIONiPPKc + 0x8b4)
+	   0x43045c: quartus_map + 0x3045c (_Z9qsyn_mainiPPKc + 0x13c)
+	0x7f797b5ca990: ccl_msg + 0x40990 (_Z15msg_main_threadPv + 0x10)
+	0x7f79788aa0cc: ccl_thr + 0x60cc (thr_final_wrapper + 0xc)
+	0x7f797b5caa4f: ccl_msg + 0x40a4f (_Z18msg_thread_wrapperPFPvS_ES_ + 0x62)
+	0x7f7978f1b679: ccl_mem + 0xa679 (_Z18mem_thread_wrapperPFPvS_ES_ + 0x99)
+	0x7f7978ce9034: ccl_err + 0x9034 (_Z18err_thread_wrapperPFPvS_ES_ + 0x27)
+	0x7f79788aa492: ccl_thr + 0x6492 (thr_thread_wrapper + 0x15)
+	0x7f797b5cc94c: ccl_msg + 0x4294c (_Z12msg_exe_mainiPPKcPFiiS1_E + 0xa3)
+	0x7f79732b02e1: c.so.6 + 0x202e1 (__libc_start_main + 0xf1)
+	   0x415675: quartus_map + 0x15675
+</callstack>
+<error>*** Fatal Error: Unhandled Exception</error>
+<date>Tue Oct 15 17:09:55 2019
+</date>
+<version>Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition</version>
+</internal_error>

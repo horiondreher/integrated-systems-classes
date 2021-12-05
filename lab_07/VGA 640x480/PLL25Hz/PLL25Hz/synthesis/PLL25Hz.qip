@@ -1,0 +1,16 @@
+set_global_assignment -entity "PLL25Hz" -library "PLL25Hz" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "PLL25Hz" -library "PLL25Hz" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "PLL25Hz" -library "PLL25Hz" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "PLL25Hz" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../PLL25Hz.sopcinfo"]
+set_global_assignment -entity "PLL25Hz" -library "PLL25Hz" -name SLD_INFO "QSYS_NAME PLL25Hz HAS_SOPCINFO 1 GENERATION_ID 1398888390"
+set_global_assignment -library "PLL25Hz" -name MISC_FILE [file join $::quartus(qip_path) "../../PLL25Hz.cmp"]
+set_global_assignment -library "PLL25Hz" -name SLD_FILE [file join $::quartus(qip_path) "PLL25Hz.debuginfo"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "PLL25Hz" -name MISC_FILE [file join $::quartus(qip_path) "../../PLL25Hz.qsys"]
+
+set_global_assignment -library "PLL25Hz" -name VERILOG_FILE [file join $::quartus(qip_path) "PLL25Hz.v"]
+set_global_assignment -library "PLL25Hz" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/PLL25Hz_altpll_0.v"]
+
+set_global_assignment -entity "PLL25Hz_altpll_0" -library "PLL25Hz" -name IP_TOOL_NAME "altpll"
+set_global_assignment -entity "PLL25Hz_altpll_0" -library "PLL25Hz" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "PLL25Hz_altpll_0" -library "PLL25Hz" -name IP_TOOL_ENV "Qsys"

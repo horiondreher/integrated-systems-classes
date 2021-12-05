@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Roberto/Desktop/Nova Disciplina/VGA 640x480/Projeto/PLL25Hz/PLL25Hz/synthesis/PLL25Hz.qip
+source_file = 1, C:/Users/Roberto/Desktop/Nova Disciplina/VGA 640x480/Projeto/PLL25Hz/PLL25Hz/synthesis/PLL25Hz.v
+source_file = 1, C:/Users/Roberto/Desktop/Nova Disciplina/VGA 640x480/Projeto/PLL25Hz/PLL25Hz/synthesis/submodules/PLL25Hz_altpll_0.v
+source_file = 1, C:/Users/Roberto/Desktop/Nova Disciplina/VGA 640x480/Projeto/PLL25Hz/db/pll25.cbx.xml
+design_name = PLL25Hz
+instance = comp, \clk_out_25m_clk~output\, clk_out_25m_clk~output, PLL25Hz, 1
+instance = comp, \areset_export~input\, areset_export~input, PLL25Hz, 1
+instance = comp, \clk_in_clk~input\, clk_in_clk~input, PLL25Hz, 1
+instance = comp, \altpll_0|sd1|pll7\, altpll_0|sd1|pll7, PLL25Hz, 1
+instance = comp, \altpll_0|sd1|wire_pll7_clk[0]~clkctrl_e_clk_out_25m_clk\, altpll_0|sd1|wire_pll7_clk[0]~clkctrl_e_clk_out_25m_clk, PLL25Hz, 1
+instance = comp, \reset_reset~input\, reset_reset~input, PLL25Hz, 1
